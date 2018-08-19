@@ -8,26 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		433DC0DB21283E2A00E5E29A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0DA21283E2A00E5E29A /* AppDelegate.swift */; };
-		433DC0DD21283E2A00E5E29A /* LengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0DC21283E2A00E5E29A /* LengthViewController.swift */; };
-		433DC0DF21283E2A00E5E29A /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0DE21283E2A00E5E29A /* SpeedViewController.swift */; };
 		433DC0E221283E2A00E5E29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433DC0E021283E2A00E5E29A /* Main.storyboard */; };
 		433DC0E421283E2B00E5E29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433DC0E321283E2B00E5E29A /* Assets.xcassets */; };
 		433DC0E721283E2B00E5E29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433DC0E521283E2B00E5E29A /* LaunchScreen.storyboard */; };
 		433DC0EF212849B800E5E29A /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0EE212849B800E5E29A /* WeightViewController.swift */; };
 		433DC0F121284C5100E5E29A /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0F021284C5100E5E29A /* TempViewController.swift */; };
+		433DC0F72128713D00E5E29A /* WeightConvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0F62128713D00E5E29A /* WeightConvertModel.swift */; };
+		433DC0F9212877B400E5E29A /* TempConvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0F8212877B400E5E29A /* TempConvertModel.swift */; };
+		433DC0FD21287AE500E5E29A /* SpeedConvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0FC21287AE500E5E29A /* SpeedConvertModel.swift */; };
+		433DC0FF2128822000E5E29A /* DistanceConvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DC0FE2128822000E5E29A /* DistanceConvertModel.swift */; };
+		434BDADD2128B36B001BA322 /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434BDADC2128B36B001BA322 /* DistanceViewController.swift */; };
+		434BDAE12128DF34001BA322 /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434BDAE02128DF34001BA322 /* SpeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		433DC0D721283E2A00E5E29A /* Unitoz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unitoz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		433DC0DA21283E2A00E5E29A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		433DC0DC21283E2A00E5E29A /* LengthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthViewController.swift; sourceTree = "<group>"; };
-		433DC0DE21283E2A00E5E29A /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
 		433DC0E121283E2A00E5E29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		433DC0E321283E2B00E5E29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		433DC0E621283E2B00E5E29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		433DC0E821283E2B00E5E29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		433DC0EE212849B800E5E29A /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
 		433DC0F021284C5100E5E29A /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		433DC0F62128713D00E5E29A /* WeightConvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightConvertModel.swift; sourceTree = "<group>"; };
+		433DC0F8212877B400E5E29A /* TempConvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConvertModel.swift; sourceTree = "<group>"; };
+		433DC0FC21287AE500E5E29A /* SpeedConvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedConvertModel.swift; sourceTree = "<group>"; };
+		433DC0FE2128822000E5E29A /* DistanceConvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceConvertModel.swift; sourceTree = "<group>"; };
+		434BDADC2128B36B001BA322 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
+		434BDAE02128DF34001BA322 /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +69,36 @@
 			isa = PBXGroup;
 			children = (
 				433DC0DA21283E2A00E5E29A /* AppDelegate.swift */,
-				433DC0DC21283E2A00E5E29A /* LengthViewController.swift */,
-				433DC0DE21283E2A00E5E29A /* SpeedViewController.swift */,
+				433DC0F32128705D00E5E29A /* Classes */,
+				433DC0F22128702600E5E29A /* Controllers */,
 				433DC0E021283E2A00E5E29A /* Main.storyboard */,
 				433DC0E321283E2B00E5E29A /* Assets.xcassets */,
 				433DC0E521283E2B00E5E29A /* LaunchScreen.storyboard */,
 				433DC0E821283E2B00E5E29A /* Info.plist */,
-				433DC0EE212849B800E5E29A /* WeightViewController.swift */,
-				433DC0F021284C5100E5E29A /* TempViewController.swift */,
 			);
 			path = Unitoz;
+			sourceTree = "<group>";
+		};
+		433DC0F22128702600E5E29A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				433DC0F021284C5100E5E29A /* TempViewController.swift */,
+				433DC0EE212849B800E5E29A /* WeightViewController.swift */,
+				434BDADC2128B36B001BA322 /* DistanceViewController.swift */,
+				434BDAE02128DF34001BA322 /* SpeedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		433DC0F32128705D00E5E29A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				433DC0F62128713D00E5E29A /* WeightConvertModel.swift */,
+				433DC0F8212877B400E5E29A /* TempConvertModel.swift */,
+				433DC0FC21287AE500E5E29A /* SpeedConvertModel.swift */,
+				433DC0FE2128822000E5E29A /* DistanceConvertModel.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				433DC0EF212849B800E5E29A /* WeightViewController.swift in Sources */,
+				434BDADD2128B36B001BA322 /* DistanceViewController.swift in Sources */,
 				433DC0F121284C5100E5E29A /* TempViewController.swift in Sources */,
-				433DC0DF21283E2A00E5E29A /* SpeedViewController.swift in Sources */,
+				433DC0F72128713D00E5E29A /* WeightConvertModel.swift in Sources */,
+				433DC0F9212877B400E5E29A /* TempConvertModel.swift in Sources */,
+				433DC0FD21287AE500E5E29A /* SpeedConvertModel.swift in Sources */,
+				434BDAE12128DF34001BA322 /* SpeedViewController.swift in Sources */,
 				433DC0DB21283E2A00E5E29A /* AppDelegate.swift in Sources */,
-				433DC0DD21283E2A00E5E29A /* LengthViewController.swift in Sources */,
+				433DC0FF2128822000E5E29A /* DistanceConvertModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F5834X6H4M;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Unitoz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F5834X6H4M;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Unitoz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Unitoz
 //
-//  Created by Navoda Sathsarani on 8/18/18.
+//  Created by Gayesha Suraweera on 8/18/18.
 //  Copyright © 2018 sliit. All rights reserved.
 //
 
